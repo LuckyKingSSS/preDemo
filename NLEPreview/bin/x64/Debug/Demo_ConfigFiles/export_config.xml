@@ -1,0 +1,17 @@
+<Properties Count="1">
+<Property key="OutPropConfig_0" type="CNLEPtr&lt;IUnknown&gt;" value="Interface:0084ECC0">
+<Properties Count="11">
+<Property key="AudioBitrate" type="int" value="192000"/>
+<Property key="AudioBitsPerSample" type="int" value="16"/>
+<Property key="AudioChannels" type="int" value="2"/>
+<Property key="AudioFourCC" type="std::wstring" value="AAC"/>
+<Property key="AudioSamplerate" type="int" value="44100"/>
+<Property key="FileFourCC" type="std::wstring" value="MP4"/>
+<Property key="OutFilePath" type="std::wstring" value="e:\test\test_out_0.mp4"/>
+<Property key="VideoBitrate" type="int" value="5000000"/>
+<Property key="VideoFourCC" type="std::wstring" value="H264"/>
+<Property key="VideoFramerate" type="double" value="30"/>
+<Property key="VideoRenderSize" type="NLEPoint" value="x:1280, y:720"/>
+</Properties>
+</Property>
+</Properties>

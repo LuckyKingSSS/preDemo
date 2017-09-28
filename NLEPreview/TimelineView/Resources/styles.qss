@@ -1,0 +1,41 @@
+
+/* 时间线*/
+
+
+QWidget#TimelineView_TimelineViewTrackRulerToolBar {background-color: rgb(245,244,244); }
+
+QWidget#TimelineView_TimelineViewTrackRuler_TrackSet_Background {background-color: rgb(245,244,244); }
+BaseButton#TimelineView_TimelineViewTrackRuler_TrackSet { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_TrackSet_n.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TimelineViewTrackRuler_TrackSet:hover { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_TrackSet_h.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TimelineViewTrackRuler_TrackSet:disabled { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_TrackSet_d.png); background-position: center; background-repeat:no-repeat; }
+
+QWidget#TimelineView_TimelineViewTrackItem_Head_Video { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Header_Video_n.png); background-position: center; background-repeat:no-repeat; }
+QWidget#TimelineView_TimelineViewTrackItem_Head_Effect { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Header_Effect_n.png); background-position: center; background-repeat:no-repeat;}
+QWidget#TimelineView_TimelineViewTrackItem_Head_Audio { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Header_Audio_n.png); background-position: center; background-repeat:no-repeat;}
+
+BaseButton#TimelineView_TrackRulerToolBar_Undo { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Undo_n.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Undo:hover { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Undo_h.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Undo:disabled { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Undo_d.png); background-position: center; background-repeat:no-repeat; }
+
+BaseButton#TimelineView_TrackRulerToolBar_Redo { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Redo_n.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Redo:hover { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Redo_h.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Redo:disabled { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Redo_d.png); background-position: center; background-repeat:no-repeat; }
+
+BaseButton#TimelineView_TrackRulerToolBar_Cut { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Cut_n.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Cut:hover { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Cut_h.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Cut:disabled { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Cut_d.png); background-position: center; background-repeat:no-repeat; }
+
+BaseButton#TimelineView_TrackRulerToolBar_Delete { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Delete_n.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Delete:hover { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Delete_h.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Delete:disabled { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Delete_d.png); background-position: center; background-repeat:no-repeat; }
+
+BaseButton#TimelineView_TrackRulerToolBar_Crop { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Crop_n.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Crop:hover { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Crop_h.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_Crop:disabled { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Crop_d.png); background-position: center; background-repeat:no-repeat; }
+
+BaseButton#TimelineView_TrackRulerToolBar_TextEdit { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_TextEdit_n.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_TextEdit:hover { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_TextEdit_h.png); background-position: center; background-repeat:no-repeat; }
+BaseButton#TimelineView_TrackRulerToolBar_TextEdit:disabled { background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_TextEdit_d.png); background-position: center; background-repeat:no-repeat; }
+
+QScrollBar:vertical { border: none; background: transparent; width: 15px; margin: 10px 0px 10px 0px; } QScrollBar::handle:vertical {  border: 1px solid #9A9CC0; border-radius: 4px; background: #9A9CC0; min-height: 20px; margin-left: 3px; margin-right: 3px; }  QScrollBar::add-line:vertical { border: none; background: #32CC99; height: 0px; subcontrol-position: right; subcontrol-origin: margin; }   QScrollBar::sub-line:vertical { border: none; background: #32CC99; height: 0px; subcontrol-position: left; subcontrol-origin: margin; }   QScrollBar:up-arrow:vertical, QScrollBar::down-arrow:vertical { border: 2px solid grey; width: 0px; height: 0px; background: transparent; }   QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { background: transparent; }
+QScrollBar:horizontal { border: none; background: rgb(245,244,244); } QScrollBar::handle:horizontal {  border: 1px solid #9A9CC0; border-radius: 4px; background: #9A9CC0; min-height: 20px; min-width:80px;margin-top: 3px; margin-bottom: 3px; } QScrollBar::add-line:horizontal{width:0px;}QScrollBar::sub-line:horizontal{width:0px;}

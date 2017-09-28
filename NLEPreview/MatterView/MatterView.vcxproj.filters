@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{d0e59d78-1c54-4d9a-9d90-82a014238f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{df3af827-9812-4c08-97ed-9f8b773f4915}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{4b1ab1c6-f114-4d90-b733-76037faa8c69}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Datas">
+      <UniqueIdentifier>{e6530af7-8765-42c3-a7cd-49d927c6b966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResListView">
+      <UniqueIdentifier>{a0eaa246-1530-4f63-bc54-8b1829fc4512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResListView\ListItemView">
+      <UniqueIdentifier>{6eb83fb1-ffa6-4053-90e4-4abd8614ef60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResListView\CustomCtrls">
+      <UniqueIdentifier>{5a501375-c5cd-4ca6-bd42-56e930eed867}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matterview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matterviewprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_matterviewprivate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_matterviewprivate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="matterviewtoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_matterviewtoolbar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_matterviewtoolbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MatterDataBase.cpp">
+      <Filter>Datas</Filter>
+    </ClCompile>
+    <ClCompile Include="MatterDataManager.cpp">
+      <Filter>Datas</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MatterDataManagerPrivate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MatterDataManagerPrivate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MatterDataManagerPrivate.cpp">
+      <Filter>Datas</Filter>
+    </ClCompile>
+    <ClCompile Include="MatterDataList.cpp">
+      <Filter>Datas</Filter>
+    </ClCompile>
+    <ClCompile Include="LibImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ColorBlock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ColorBlock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImgButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImgButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ItemBaseView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ItemBaseView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ListItemData.cpp">
+      <Filter>ResListView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NormalItemView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NormalItemView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ResListView.cpp">
+      <Filter>ResListView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ResListView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ResListView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ResProgressBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ResProgressBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SelectionBorder.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SelectionBorder.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VideoItemView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VideoItemView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\NormalItemView.cpp">
+      <Filter>ResListView\ListItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ItemBaseView.cpp">
+      <Filter>ResListView\ListItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\VideoItemView.cpp">
+      <Filter>ResListView\ListItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ColorBlock.cpp">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ImgButton.cpp">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ResProgressBar.cpp">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\SelectionBorder.cpp">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ImageItemView.cpp">
+      <Filter>ResListView\ListItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageItemView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageItemView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\MusicItemView.cpp">
+      <Filter>ResListView\ListItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MusicItemView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MusicItemView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\EffectItemView.cpp">
+      <Filter>ResListView\ListItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EffectItemView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EffectItemView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MatterDataManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MatterDataManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MatterDataList.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MatterDataList.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Resource.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImportMediaDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImportMediaDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportMediaDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImportHelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImportHelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatterConfigFileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MatterConfigFileManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MatterConfigFileManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\IconButton.cpp">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IconButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_IconButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_matterview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_matterview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\inc_MatterView\matterview_global.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\ListItemData.h">
+      <Filter>ResListView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\inc_MatterView\MatterDataBase.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\inc_MatterView\MatterDataDefine.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="matterviewprivate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="matterviewtoolbar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MatterDataManagerPrivate.h">
+      <Filter>Datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\ResListView.h">
+      <Filter>ResListView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\NormalItemView.h">
+      <Filter>ResListView\ListItemView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\ItemBaseView.h">
+      <Filter>ResListView\ListItemView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\VideoItemView.h">
+      <Filter>ResListView\ListItemView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\ColorBlock.h">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\ImgButton.h">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\ResProgressBar.h">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\SelectionBorder.h">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\ImageItemView.h">
+      <Filter>ResListView\ListItemView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\MusicItemView.h">
+      <Filter>ResListView\ListItemView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\EffectItemView.h">
+      <Filter>ResListView\ListItemView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_MatterView\MatterDataManager.h">
+      <Filter>Interfaces</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_MatterView\MatterDataList.h">
+      <Filter>Interfaces</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImportMediaDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImportHelper.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MatterConfigFileManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls\IconButton.h">
+      <Filter>ResListView\CustomCtrls</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_MatterView\matterview.h">
+      <Filter>Interfaces</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MatterView.rc" />
+  </ItemGroup>
+</Project>

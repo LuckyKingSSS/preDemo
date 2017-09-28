@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/TimelineViewPrivate">
+        <file>Resources/normal/TimelineView_Cut_d.png</file>
+        <file>Resources/normal/TimelineView_Cut_h.png</file>
+        <file>Resources/normal/TimelineView_Cut_n.png</file>
+        <file>Resources/normal/TimelineView_Delete_d.png</file>
+        <file>Resources/normal/TimelineView_Delete_h.png</file>
+        <file>Resources/normal/TimelineView_Delete_n.png</file>
+        <file>Resources/normal/TimelineView_Redo_d.png</file>
+        <file>Resources/normal/TimelineView_Redo_h.png</file>
+        <file>Resources/normal/TimelineView_Redo_n.png</file>
+        <file>Resources/normal/TimelineView_Undo_d.png</file>
+        <file>Resources/normal/TimelineView_Undo_h.png</file>
+        <file>Resources/normal/TimelineView_Undo_n.png</file>
+        <file>Resources/normal/TimelineView_Header_Audio_n.png</file>
+        <file>Resources/normal/TimelineView_Header_Effect_n.png</file>
+        <file>Resources/normal/TimelineView_Header_Video_n.png</file>
+        <file>Resources/normal/TimelineView_TrackSet_d.png</file>
+        <file>Resources/normal/TimelineView_TrackSet_h.png</file>
+        <file>Resources/normal/TimelineView_TrackSet_n.png</file>
+        <file>Resources/normal/TimelineView_Zoom_Track_bg.png</file>
+        <file>Resources/normal/TimelineView_Zoom_Track_groove.png</file>
+        <file>Resources/normal/TimelineView_Zoom_chunk.png</file>
+        <file>Resources/normal/TimelineView_Crop_d.png</file>
+        <file>Resources/normal/TimelineView_Crop_h.png</file>
+        <file>Resources/normal/TimelineView_Crop_n.png</file>
+        <file>Resources/normal/TimelineView_TextEdit_h.png</file>
+        <file>Resources/normal/TimelineView_TextEdit_n.png</file>
+        <file>Resources/styles.qss</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Transitions>
+	<Transition FriendName="ButterFlyWaveScrawler" GUID="3F9270DE-728F-4898-8C4C-7856B4540539">
+    <Params>
+		<Param FriendName="transition duration" VariantName="transition_duration" type="NLERange", default="0, 300"/>
+	</Params>
+  </Transition>
+  <Transition FriendName="CrazyParammetricFun" GUID="215C0EDA-9628-4e30-A1FB-0E4F809FB05D">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="ColourDistance" GUID="DD893BBE-B3E6-4702-848B-27F44C9871C9">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="CrossZoom" GUID="A679E80D-8647-4028-A366-6BFFEE34715A">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cube" GUID="0FCB240F-5328-4e85-869A-2D989F50D387">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="dispersionblur" GUID="09009453-4474-4742-959D-1EA7EE351CCC">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="DoorWay" GUID="976B2502-3B22-4dd4-AEB4-0AAA2C1E5AC8">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Fadegrayscale" GUID="CEF5D4D6-EEE4-4073-A948-8C74F1B2870B">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Flyeye" GUID="E8134C17-CE91-4918-AD23-40F4A5A0A7AF">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Kaleidoscope" GUID="7A55E400-DED3-4789-B656-E8D6CBCC3956">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Morph" GUID="332477CB-A441-4b5d-A2D4-BF842B7298B2">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Ripper" GUID="DB22C576-091B-4160-90C6-9E5359B75595">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Swap" GUID="C3612776-D62E-41a2-8733-0429F50E11F5">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Swirl" GUID="D429C480-BC4C-4e9d-AC65-A7626B34ECFD">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Undulating" GUID="AD78BFB4-0137-4358-9075-411F232CF219">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Erase" GUID="667A322D-7351-44fd-AACC-17B0F766DA5F">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Slide" GUID="4CA4EF88-5997-41a6-AAE6-0C2226D5A96E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Bar" GUID="B41CF7F3-E39A-40e9-AE28-F21292EDDD03">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Drop" GUID="136D4AD9-F8E6-44ef-8485-730F0F269FFD">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Blind" GUID="95F00574-529C-485e-87F4-970AD90419E9">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Turn" GUID="1B033EDA-6869-4957-AF60-323B09FB49FC">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Roll" GUID="026C7976-00C0-4a05-A27A-E8D3372C06E7">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Roll_right_top" GUID="1B3AF7D9-695E-4af0-9DC6-A8CFEE464DF8">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Wind" GUID="7E154FAA-91D3-4002-AEDD-9EBA2201711E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="MoveRect_1" GUID="F47CBE2C-CE60-40b9-B962-CABF3175E488">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="MoveRect_2" GUID="48DE56F4-D272-45b0-99AA-8F359C7FA3A7">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Swipe" GUID="FD4A4891-4E1C-4e05-B290-8195CC55E8C5">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Push" GUID="925C36FB-9EE1-4fca-899F-549D8328F2DC">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Flash" GUID="BF94B014-EFD7-4303-8243-76C0A29B20E7">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Dissolve" GUID="2981D185-D52E-44f4-ABD5-3CE83890E32E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Fade" GUID="0CAA397E-6EB2-4e51-9DF7-B7DDB338EB22">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Wave" GUID="9C91C7DA-1ABE-4304-BD50-CE7780E77EEA">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="H_random_line" GUID="B6A86CA4-2864-415c-8620-6E4341812E35">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="V_random_line" GUID="470EC1DC-A0F0-4dd4-BB2D-D312C39F54F2">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Drop_bounce" GUID="8EF84F2E-C203-4f98-84D1-959EF228456D">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Pixelate" GUID="0FBDABAD-9BC5-42e7-9596-EC20AC763806">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_whisk" GUID="4C481959-DA74-459b-B538-D0590BFB2CEF">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Col_whisk" GUID="25045AAA-9ACA-445c-B24C-21052C9B8D27">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_whisk" GUID="50C89935-C9C8-44a1-A4F4-99B8A29A517A">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_split" GUID="98CD2167-3F82-4eaf-AE93-D8EFFDCECC1E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Col_split" GUID="48497ECE-F824-4480-A04D-984977F3AA29">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_merge" GUID="47EEB6BF-8E99-488f-BCD8-ABD73A495CB4">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Merge" GUID="84611DFC-9C1F-4f2a-B514-B434D849B956">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_split" GUID="75A09E8D-21D1-4c4e-AEA9-EB9CEC11A644">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_merge" GUID="0D227E56-DB1E-4fe4-B07B-A9C062FF6F73">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Rect_zoom_in" GUID="CACF5228-B4B6-44e2-91C6-4CA8367EECBA">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Rect_zoom_out" GUID="F7BD83DF-999C-4d09-8F4C-85DAB842E720">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Skew_right_split" GUID="2D4099D2-9B28-437f-8FEB-2A7E25C0B549">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Skew_left_split" GUID="5003D879-7930-44fa-A333-F21F62564709">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Skew_left_merge" GUID="DECFFC57-1EE6-41ef-A453-75EBC7E9172B">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Skew_right_merge" GUID="40164154-9921-419c-A4D2-3751573655F0">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Round_zoom_out" GUID="97D5B991-903E-43bc-9B03-A808F74692D3">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Round_zoom_in" GUID="ABBD7AED-1384-4fd2-862B-E955E5F9C3AE">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Diamond_zoom_in" GUID="9303303E-2AFC-4301-B2C7-F4C5F681A580">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Diamond_zoom_out" GUID="06E3515B-3EA3-4071-AD49-B9EDCD468B93">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Roll_clockwise" GUID="1EE81222-189E-4159-A917-D15EE518D2FF">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Roll_anti_clockwise" GUID="8115A683-09ED-4d19-8D8F-A6010B6EEEBA">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Vertical_shutter" GUID="B4292352-81D3-4e7d-ACC9-F040150E41A3">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Horizontal_shutter" GUID="DCD3D68E-FFCD-4240-B1EE-348E9E393CC9">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_shutter_1" GUID="AFED7E12-9A02-49d4-8233-7EB50FB749B9">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_shutter_2" GUID="0922661A-A249-40f7-999B-A60DBD447E2F">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Grid_zoom_in" GUID="426F529C-3486-4973-BA25-F61A4955A0A1">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Grid_zoom_out" GUID="0E7A04C3-95DA-4633-9AF3-E39BCC95B86F">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Deposit_up" GUID="A8D9BD07-A79B-4f00-952E-9FDE7072CF64">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Sweep_clockwise" GUID="74876B99-7AD0-49b3-91D4-D3136E9A850A">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Sweep_anti_clockwise" GUID="32B08589-D9BB-486a-A9D7-E78D29099EEE">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_cos_whisk" GUID="C8C1ED9D-959D-453f-8EFD-93D5BF7F5B23">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_cos_slide" GUID="07222DAB-BE45-487e-9A30-02AB42C2D70D">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_split_2" GUID="715C64BE-0B6A-4780-95B0-FD580A21F521">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Col_split_2" GUID="DC4F36FC-68B4-40b9-A08C-5B60EFA8546E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Topple" GUID="AEF2EDAC-9644-4874-9481-C7DD64FAF04F">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Blind_1" GUID="14FA525B-900A-402f-88B3-F28EEAFC31D8">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Twrl" GUID="664A7041-693D-47c1-81CB-DFAA211D485B">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Zoom" GUID="40B96872-E6B9-4f73-9B78-4D88339AE56B">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Pinwheel" GUID="668D3D30-43B8-41ef-A222-86E7912A497E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Linear Wipe Down" GUID="C456899A-C306-4f88-ACD9-5B158A5B1F48">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Linear Wipe Right" GUID="6675F015-A329-4ee9-9A89-E5427799D0BD">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Dissolve 2" GUID="BDC34DEB-D6DA-4aaa-90A9-787BBD841775">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Star" GUID="FB91949A-E1BA-4695-A8E7-540E68178933">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Matrix" GUID="16B67B7B-5AE2-4686-B40E-791F47D9E533">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Evaporate 1" GUID="1F205E4D-E4B0-4b35-AD4C-59EF358577BB">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Evaporate 2" GUID="5149538F-7C3D-4bb9-B883-1ECAC692C352">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Polka Dot" GUID="E3DCA208-E54E-4cc0-B621-DF9B4B645A34">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Heart" GUID="7F9D4E76-DE43-4cdf-BDEF-380B2157FD76">
+    <Params></Params>
+  </Transition>
+</Transitions>

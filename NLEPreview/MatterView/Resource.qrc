@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Image">
+        <file>Resources/addbutton.png</file>
+        <file>Resources/filter2222.png</file>
+        <file>Resources/media2222.png</file>
+        <file>Resources/music_1613.png</file>
+        <file>Resources/video_1612.png</file>
+        <file>Resources/delete5213.png</file>
+        <file>Resources/import5213.png</file>
+    </qresource>
+</RCC>

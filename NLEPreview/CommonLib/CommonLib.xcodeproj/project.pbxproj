@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		190C74FDBC51E962CE518BB0 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "libCommonLib" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		081281A09D1D623CB2C4D90F /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1F8E6A5DDD4C70F650CB9078 /* QtGui.framework */; };
+		0AEEDECF6ED9B0C8ECEA6AFD /* XmlOperation.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 01F4F57D62ABE6BD7B701D0D /* XmlOperation.cpp */; settings = {ATTRIBUTES = (); }; };
+		0C05A442DA1B0FF63CC724B4 /* BaseDialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BB964E5FED17875E479CE282 /* BaseDialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		0C2CC78EFD37EF47C91CD64D /* RegexOperation.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CFFDAADDDD0B08B6AE2194FF /* RegexOperation.cpp */; settings = {ATTRIBUTES = (); }; };
+		158F140BBE1014EF5296B45C /* PlayerMaterProvider.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D32EC0CA90DF986C563DCAC8 /* PlayerMaterProvider.cpp */; settings = {ATTRIBUTES = (); }; };
+		265F6BD3A22CF4F13D750D37 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 319F7CEFD3DC3D982898F084 /* QtCore.framework */; };
+		298DFB3F640CCFAEAD20BF1E /* FileOperation.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2535B49C9AF16189CF4543BB /* FileOperation.cpp */; settings = {ATTRIBUTES = (); }; };
+		3D832BE7FBBCA7BCEB4D0ACD /* timelineviewruler.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 83D18F933BDD5C33CDF1CA6D /* timelineviewruler.cpp */; settings = {ATTRIBUTES = (); }; };
+		4501D57D533F7C192692D4E0 /* stdafx.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6FCE0DC9CDCA6796EF817139 /* stdafx.cpp */; settings = {ATTRIBUTES = (); }; };
+		5C865AB95DB2B3E336E7727F /* CommonWidgets.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7D7A292C20A5BB1CFA8DA5DE /* CommonWidgets.cpp */; settings = {ATTRIBUTES = (); }; };
+		5DBF4B8DD08FD3B48548FB45 /* NLEWraperPrivate.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 27082BE05D7A1E369DAE3830 /* NLEWraperPrivate.cpp */; settings = {ATTRIBUTES = (); }; };
+		7115BEBBE7C355B6E8B7C569 /* PlayerMaterProviderPrivate.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1B0FA09200D6079E2D5A98C5 /* PlayerMaterProviderPrivate.cpp */; settings = {ATTRIBUTES = (); }; };
+		71C3042FF0294459D7F8CB22 /* WSCreateInstance.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5D3D2A2F6A31D8E76C16C390 /* WSCreateInstance.cpp */; settings = {ATTRIBUTES = (); }; };
+		8484D23D1DCC817400BBE732 /* QtXml.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8484D23B1DCC817300BBE732 /* QtXml.framework */; };
+		8484D23F1DCC818B00BBE732 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8484D23E1DCC818B00BBE732 /* QtWidgets.framework */; };
+		8484D2421DCC81EC00BBE732 /* libNLEGUID.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8484D2401DCC81EC00BBE732 /* libNLEGUID.a */; };
+		8484D2431DCC81EC00BBE732 /* libNLEKey.dylib in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8484D2411DCC81EC00BBE732 /* libNLEKey.dylib */; };
+		84FC26E91DD44413004139F8 /* moc_BaseDialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26DC1DD44413004139F8 /* moc_BaseDialog.cpp */; };
+		84FC26EA1DD44413004139F8 /* moc_CommonWidgets.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26DD1DD44413004139F8 /* moc_CommonWidgets.cpp */; };
+		84FC26EB1DD44413004139F8 /* moc_NLEBaseWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26DE1DD44413004139F8 /* moc_NLEBaseWidget.cpp */; };
+		84FC26EC1DD44413004139F8 /* moc_NLETimeline.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26DF1DD44413004139F8 /* moc_NLETimeline.cpp */; };
+		84FC26ED1DD44413004139F8 /* moc_NLEWraper.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26E01DD44413004139F8 /* moc_NLEWraper.cpp */; };
+		84FC26EE1DD44413004139F8 /* moc_NLEWraperPrivate.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26E11DD44413004139F8 /* moc_NLEWraperPrivate.cpp */; };
+		84FC26EF1DD44413004139F8 /* moc_PlayerMaterProvider.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26E21DD44413004139F8 /* moc_PlayerMaterProvider.cpp */; };
+		84FC26F01DD44413004139F8 /* moc_PlayerMaterProviderPrivate.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26E31DD44413004139F8 /* moc_PlayerMaterProviderPrivate.cpp */; };
+		84FC26F11DD44413004139F8 /* moc_TimelineRuler.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26E41DD44413004139F8 /* moc_TimelineRuler.cpp */; };
+		84FC26F21DD44413004139F8 /* moc_timelineviewruler.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26E51DD44413004139F8 /* moc_timelineviewruler.cpp */; };
+		84FC26F31DD44413004139F8 /* moc_TopLevelWindowTitleBar_p.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26E61DD44413004139F8 /* moc_TopLevelWindowTitleBar_p.cpp */; };
+		84FC26F41DD44413004139F8 /* moc_TopLevelWindowTitleBar.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26E71DD44413004139F8 /* moc_TopLevelWindowTitleBar.cpp */; };
+		84FC26F51DD44413004139F8 /* qrc_CommonLib.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 84FC26E81DD44413004139F8 /* qrc_CommonLib.cpp */; };
+		8702D6DC7ED7223C41654868 /* NLEBaseWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 23379242C3E4B28CA00A73DA /* NLEBaseWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		93B1D39EDE97ED07FDE2B9BC /* PathOperation.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E7771B6F9C4155342EEB4C3B /* PathOperation.cpp */; settings = {ATTRIBUTES = (); }; };
+		9D9BEDFEA8F5AF8D3C3B8F03 /* NLEWraper.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 063C6D0EE82DA8D17200374C /* NLEWraper.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		B7C734894B58F8C13F24026D /* RenderOperation.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E606342A5065A7480BC1EFC3 /* RenderOperation.cpp */; settings = {ATTRIBUTES = (); }; };
+		D3D9250808D38D37F44462A4 /* NLETimeline.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C85E45A86F46E533864CFED9 /* NLETimeline.cpp */; settings = {ATTRIBUTES = (); }; };
+		D438CF19CCDA6BC293EEECCB /* TopLevelWindowTitleBar_p.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9A0E035B6CA4AF4702B42A49 /* TopLevelWindowTitleBar_p.cpp */; settings = {ATTRIBUTES = (); }; };
+		E1D3F8AD162C81806DC7B998 /* LibImport.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 25A1FCA9C27732A1D7E2EA83 /* LibImport.cpp */; settings = {ATTRIBUTES = (); }; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		F9B9ED177562C9973960D3AF /* externalapi.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7585A7C92A451A44E370CEC3 /* externalapi.cpp */; settings = {ATTRIBUTES = (); }; };
+		FEB2163F3484579E5BD2D5A0 /* GlobalResources.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0613FEC7A030326E3FAC3123 /* GlobalResources.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8484D2281DCC7E1B00BBE732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190C74FDBC51E962CE518BB0;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F4F57D62ABE6BD7B701D0D /* XmlOperation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XmlOperation.cpp; path = ./XmlOperation.cpp; sourceTree = "<absolute>"; };
+		0613FEC7A030326E3FAC3123 /* GlobalResources.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalResources.cpp; path = ./GlobalResources.cpp; sourceTree = "<absolute>"; };
+		063C6D0EE82DA8D17200374C /* NLEWraper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NLEWraper.cpp; path = ./NLEWraper/NLEWraper.cpp; sourceTree = "<absolute>"; };
+		1B0FA09200D6079E2D5A98C5 /* PlayerMaterProviderPrivate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PlayerMaterProviderPrivate.cpp; path = ./NLEWraper/PlayerMaterProviderPrivate.cpp; sourceTree = "<absolute>"; };
+		1F8E6A5DDD4C70F650CB9078 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = ../../../../Qt5.4.1/5.4/clang_64/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		23379242C3E4B28CA00A73DA /* NLEBaseWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NLEBaseWidget.cpp; path = ./NLEBaseWidget.cpp; sourceTree = "<absolute>"; };
+		240B3B2D2841FEE24C7E10BE /* CommonLib.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = CommonLib.pro; path = ./CommonLib.pro; sourceTree = "<absolute>"; };
+		2535B49C9AF16189CF4543BB /* FileOperation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FileOperation.cpp; path = ./FileOperation.cpp; sourceTree = "<absolute>"; };
+		25A1FCA9C27732A1D7E2EA83 /* LibImport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LibImport.cpp; path = ./LibImport.cpp; sourceTree = "<absolute>"; };
+		27082BE05D7A1E369DAE3830 /* NLEWraperPrivate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NLEWraperPrivate.cpp; path = ./NLEWraper/NLEWraperPrivate.cpp; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		319F7CEFD3DC3D982898F084 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = ../../../../Qt5.4.1/5.4/clang_64/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		39AFF482CF489C36669A3EB5 /* TopLevelWindowTitleBar_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopLevelWindowTitleBar_p.h; path = ./TopLevelWindowTitleBar_p.h; sourceTree = "<absolute>"; };
+		422410290344C6EB5CFD27D7 /* libCommonLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCommonLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		465DF33397C8998073F15A34 /* CommonLib.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = CommonLib.qrc; path = ./CommonLib.qrc; sourceTree = "<absolute>"; };
+		5A575F0D4E854CCA07002005 /* NLEWraperPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NLEWraperPrivate.h; path = ./NLEWraper/NLEWraperPrivate.h; sourceTree = "<absolute>"; };
+		5D3D2A2F6A31D8E76C16C390 /* WSCreateInstance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WSCreateInstance.cpp; path = ./NLEWraper/WSCreateInstance.cpp; sourceTree = "<absolute>"; };
+		66F50025563DA5A094A940CB /* PlayerMaterProviderPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PlayerMaterProviderPrivate.h; path = ./NLEWraper/PlayerMaterProviderPrivate.h; sourceTree = "<absolute>"; };
+		6FCE0DC9CDCA6796EF817139 /* stdafx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ./stdafx.cpp; sourceTree = "<absolute>"; };
+		739435AFF90B3580BBE5F63A /* stdafx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ./stdafx.h; sourceTree = "<absolute>"; };
+		7585A7C92A451A44E370CEC3 /* externalapi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = externalapi.cpp; path = ./externalapi.cpp; sourceTree = "<absolute>"; };
+		7D7A292C20A5BB1CFA8DA5DE /* CommonWidgets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CommonWidgets.cpp; path = ./CommonWidgets.cpp; sourceTree = "<absolute>"; };
+		83D18F933BDD5C33CDF1CA6D /* timelineviewruler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = timelineviewruler.cpp; path = ./timelineviewruler.cpp; sourceTree = "<absolute>"; };
+		8484D23A1DCC817300BBE732 /* QtWebView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWebView.framework; path = Users/admin/Qt5.4.1/5.4/clang_64/lib/QtWebView.framework; sourceTree = "<group>"; };
+		8484D23B1DCC817300BBE732 /* QtXml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtXml.framework; path = Users/admin/Qt5.4.1/5.4/clang_64/lib/QtXml.framework; sourceTree = "<group>"; };
+		8484D23E1DCC818B00BBE732 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = Users/admin/Qt5.4.1/5.4/clang_64/lib/QtWidgets.framework; sourceTree = "<group>"; };
+		8484D2401DCC81EC00BBE732 /* libNLEGUID.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNLEGUID.a; path = Users/admin/Documents/project/NLEPreview/bin/Mac/Debug/libNLEGUID.a; sourceTree = "<group>"; };
+		8484D2411DCC81EC00BBE732 /* libNLEKey.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libNLEKey.dylib; path = Users/admin/Documents/project/NLEPreview/bin/Mac/Debug/libNLEKey.dylib; sourceTree = "<group>"; };
+		84FC26DC1DD44413004139F8 /* moc_BaseDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_BaseDialog.cpp; path = GeneratedFiles/moc_BaseDialog.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26DD1DD44413004139F8 /* moc_CommonWidgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_CommonWidgets.cpp; path = GeneratedFiles/moc_CommonWidgets.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26DE1DD44413004139F8 /* moc_NLEBaseWidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_NLEBaseWidget.cpp; path = GeneratedFiles/moc_NLEBaseWidget.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26DF1DD44413004139F8 /* moc_NLETimeline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_NLETimeline.cpp; path = GeneratedFiles/moc_NLETimeline.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26E01DD44413004139F8 /* moc_NLEWraper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_NLEWraper.cpp; path = GeneratedFiles/moc_NLEWraper.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26E11DD44413004139F8 /* moc_NLEWraperPrivate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_NLEWraperPrivate.cpp; path = GeneratedFiles/moc_NLEWraperPrivate.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26E21DD44413004139F8 /* moc_PlayerMaterProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_PlayerMaterProvider.cpp; path = GeneratedFiles/moc_PlayerMaterProvider.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26E31DD44413004139F8 /* moc_PlayerMaterProviderPrivate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_PlayerMaterProviderPrivate.cpp; path = GeneratedFiles/moc_PlayerMaterProviderPrivate.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26E41DD44413004139F8 /* moc_TimelineRuler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_TimelineRuler.cpp; path = GeneratedFiles/moc_TimelineRuler.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26E51DD44413004139F8 /* moc_timelineviewruler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_timelineviewruler.cpp; path = GeneratedFiles/moc_timelineviewruler.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26E61DD44413004139F8 /* moc_TopLevelWindowTitleBar_p.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_TopLevelWindowTitleBar_p.cpp; path = GeneratedFiles/moc_TopLevelWindowTitleBar_p.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26E71DD44413004139F8 /* moc_TopLevelWindowTitleBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_TopLevelWindowTitleBar.cpp; path = GeneratedFiles/moc_TopLevelWindowTitleBar.cpp; sourceTree = SOURCE_ROOT; };
+		84FC26E81DD44413004139F8 /* qrc_CommonLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_CommonLib.cpp; path = GeneratedFiles/qrc_CommonLib.cpp; sourceTree = SOURCE_ROOT; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		981D4049436B6930B191B945 /* timelineviewruler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = timelineviewruler.h; path = ./timelineviewruler.h; sourceTree = "<absolute>"; };
+		9A0E035B6CA4AF4702B42A49 /* TopLevelWindowTitleBar_p.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TopLevelWindowTitleBar_p.cpp; path = ./TopLevelWindowTitleBar_p.cpp; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		AB745978DF0F41D1801ABDA6 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = ./.qmake.stash; sourceTree = "<absolute>"; };
+		BB964E5FED17875E479CE282 /* BaseDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BaseDialog.cpp; path = ./BaseDialog.cpp; sourceTree = "<absolute>"; };
+		C85E45A86F46E533864CFED9 /* NLETimeline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NLETimeline.cpp; path = ./NLEWraper/NLETimeline.cpp; sourceTree = "<absolute>"; };
+		CFFDAADDDD0B08B6AE2194FF /* RegexOperation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RegexOperation.cpp; path = ./RegexOperation.cpp; sourceTree = "<absolute>"; };
+		D32EC0CA90DF986C563DCAC8 /* PlayerMaterProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PlayerMaterProvider.cpp; path = ./NLEWraper/PlayerMaterProvider.cpp; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		E38C9A6B646180E657519427 /* GlobalResources_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GlobalResources_p.h; path = ./GlobalResources_p.h; sourceTree = "<absolute>"; };
+		E606342A5065A7480BC1EFC3 /* RenderOperation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RenderOperation.cpp; path = ./RenderOperation.cpp; sourceTree = "<absolute>"; };
+		E7771B6F9C4155342EEB4C3B /* PathOperation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PathOperation.cpp; path = ./PathOperation.cpp; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8484D2421DCC81EC00BBE732 /* libNLEGUID.a in Link Binary With Libraries */,
+				8484D2431DCC81EC00BBE732 /* libNLEKey.dylib in Link Binary With Libraries */,
+				8484D23F1DCC818B00BBE732 /* QtWidgets.framework in Link Binary With Libraries */,
+				8484D23D1DCC817400BBE732 /* QtXml.framework in Link Binary With Libraries */,
+				081281A09D1D623CB2C4D90F /* QtGui.framework in Link Binary With Libraries */,
+				265F6BD3A22CF4F13D750D37 /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84FC26DC1DD44413004139F8 /* moc_BaseDialog.cpp */,
+				84FC26DD1DD44413004139F8 /* moc_CommonWidgets.cpp */,
+				84FC26DE1DD44413004139F8 /* moc_NLEBaseWidget.cpp */,
+				84FC26DF1DD44413004139F8 /* moc_NLETimeline.cpp */,
+				84FC26E01DD44413004139F8 /* moc_NLEWraper.cpp */,
+				84FC26E11DD44413004139F8 /* moc_NLEWraperPrivate.cpp */,
+				84FC26E21DD44413004139F8 /* moc_PlayerMaterProvider.cpp */,
+				84FC26E31DD44413004139F8 /* moc_PlayerMaterProviderPrivate.cpp */,
+				84FC26E41DD44413004139F8 /* moc_TimelineRuler.cpp */,
+				84FC26E51DD44413004139F8 /* moc_timelineviewruler.cpp */,
+				84FC26E61DD44413004139F8 /* moc_TopLevelWindowTitleBar_p.cpp */,
+				84FC26E71DD44413004139F8 /* moc_TopLevelWindowTitleBar.cpp */,
+				84FC26E81DD44413004139F8 /* qrc_CommonLib.cpp */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB964E5FED17875E479CE282 /* BaseDialog.cpp */,
+				7D7A292C20A5BB1CFA8DA5DE /* CommonWidgets.cpp */,
+				7585A7C92A451A44E370CEC3 /* externalapi.cpp */,
+				2535B49C9AF16189CF4543BB /* FileOperation.cpp */,
+				0613FEC7A030326E3FAC3123 /* GlobalResources.cpp */,
+				25A1FCA9C27732A1D7E2EA83 /* LibImport.cpp */,
+				23379242C3E4B28CA00A73DA /* NLEBaseWidget.cpp */,
+				E7771B6F9C4155342EEB4C3B /* PathOperation.cpp */,
+				CFFDAADDDD0B08B6AE2194FF /* RegexOperation.cpp */,
+				E606342A5065A7480BC1EFC3 /* RenderOperation.cpp */,
+				6FCE0DC9CDCA6796EF817139 /* stdafx.cpp */,
+				83D18F933BDD5C33CDF1CA6D /* timelineviewruler.cpp */,
+				9A0E035B6CA4AF4702B42A49 /* TopLevelWindowTitleBar_p.cpp */,
+				01F4F57D62ABE6BD7B701D0D /* XmlOperation.cpp */,
+				77BAD8AC1ED3A2A10C3D303B /* NLEWraper */,
+				E38C9A6B646180E657519427 /* GlobalResources_p.h */,
+				739435AFF90B3580BBE5F63A /* stdafx.h */,
+				981D4049436B6930B191B945 /* timelineviewruler.h */,
+				39AFF482CF489C36669A3EB5 /* TopLevelWindowTitleBar_p.h */,
+			);
+			name = Sources;
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				240B3B2D2841FEE24C7E10BE /* CommonLib.pro */,
+				AB745978DF0F41D1801ABDA6 /* .qmake.stash */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		77BAD8AC1ED3A2A10C3D303B /* NLEWraper */ = {
+			isa = PBXGroup;
+			children = (
+				C85E45A86F46E533864CFED9 /* NLETimeline.cpp */,
+				063C6D0EE82DA8D17200374C /* NLEWraper.cpp */,
+				27082BE05D7A1E369DAE3830 /* NLEWraperPrivate.cpp */,
+				D32EC0CA90DF986C563DCAC8 /* PlayerMaterProvider.cpp */,
+				1B0FA09200D6079E2D5A98C5 /* PlayerMaterProviderPrivate.cpp */,
+				5D3D2A2F6A31D8E76C16C390 /* WSCreateInstance.cpp */,
+				5A575F0D4E854CCA07002005 /* NLEWraperPrivate.h */,
+				66F50025563DA5A094A940CB /* PlayerMaterProviderPrivate.h */,
+			);
+			name = NLEWraper;
+			sourceTree = "<Group>";
+		};
+		87DF60DE337FB58864343E39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				465DF33397C8998073F15A34 /* CommonLib.qrc */,
+			);
+			name = Resources;
+			sourceTree = "<Group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8484D2401DCC81EC00BBE732 /* libNLEGUID.a */,
+				8484D2411DCC81EC00BBE732 /* libNLEKey.dylib */,
+				8484D23E1DCC818B00BBE732 /* QtWidgets.framework */,
+				8484D23A1DCC817300BBE732 /* QtWebView.framework */,
+				8484D23B1DCC817300BBE732 /* QtXml.framework */,
+				1F8E6A5DDD4C70F650CB9078 /* QtGui.framework */,
+				319F7CEFD3DC3D982898F084 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* CommonLib */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				87DF60DE337FB58864343E39 /* Resources */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = CommonLib;
+			sourceTree = "<Group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422410290344C6EB5CFD27D7 /* libCommonLib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<Group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F270CE26276959C47507CB66 /* libCommonLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "libCommonLib" */;
+			buildPhases = (
+				8484D2441DCC87C600BBE732 /* ShellScript */,
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				840B6DC11DD031DB00FF70B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6A45C4AF8132EFC783C49A /* PBXTargetDependency */,
+			);
+			name = libCommonLib;
+			productName = libCommonLib;
+			productReference = 422410290344C6EB5CFD27D7 /* libCommonLib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CommonLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* CommonLib */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F270CE26276959C47507CB66 /* libCommonLib */,
+				190C74FDBC51E962CE518BB0 /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		840B6DC11DD031DB00FF70B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp ./Debug/libCommonLib.dylib ../bin/Mac/Debug/";
+		};
+		8484D2441DCC87C600BBE732 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -f ../bin/mac/Debug/libCommonLib.dylib\n\n${QTDIR}/bin/moc ../include/inc_commonlib/TimelineRuler.h -o ./GeneratedFiles/moc_TimelineRuler.cpp\n${QTDIR}/bin/moc ../include/inc_commonlib/BaseDialog.h -o ./GeneratedFiles/moc_BaseDialog.cpp\n${QTDIR}/bin/moc ../include/inc_commonlib/CommonWidgets.h -o ./GeneratedFiles/moc_CommonWidgets.cpp\n${QTDIR}/bin/moc ../include/inc_commonlib/NLEBaseWidget.h -o ./GeneratedFiles/moc_NLEBaseWidget.cpp\n${QTDIR}/bin/moc ../include/inc_commonlib/NLETimeline.h -o ./GeneratedFiles/moc_NLETimeline.cpp\n${QTDIR}/bin/moc ../include/inc_commonlib/NLEWraper.h -o ./GeneratedFiles/moc_NLEWraper.cpp\n${QTDIR}/bin/moc ../include/inc_commonlib/PlayerMaterProvider.h -o ./GeneratedFiles/moc_PlayerMaterProvider.cpp\n${QTDIR}/bin/moc ../include/inc_commonlib/TopLevelWindowTitleBar.h -o ./GeneratedFiles/moc_TopLevelWindowTitleBar.cpp\n${QTDIR}/bin/moc ./NLEWraper/NLEWraperPrivate.h -o ./GeneratedFiles/moc_NLEWraperPrivate.cpp\n${QTDIR}/bin/moc ./NLEWraper/PlayerMaterProviderPrivate.h -o ./GeneratedFiles/moc_PlayerMaterProviderPrivate.cpp\n${QTDIR}/bin/moc ./timelineviewruler.h -o ./GeneratedFiles/moc_timelineviewruler.cpp\n${QTDIR}/bin/moc ./TopLevelWindowTitleBar_p.h -o ./GeneratedFiles/moc_TopLevelWindowTitleBar_p.cpp\n${QTDIR}/bin/rcc ./CommonLib.qrc -o ./GeneratedFiles/qrc_CommonLib.cpp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C05A442DA1B0FF63CC724B4 /* BaseDialog.cpp in Compile Sources */,
+				5C865AB95DB2B3E336E7727F /* CommonWidgets.cpp in Compile Sources */,
+				F9B9ED177562C9973960D3AF /* externalapi.cpp in Compile Sources */,
+				298DFB3F640CCFAEAD20BF1E /* FileOperation.cpp in Compile Sources */,
+				84FC26E91DD44413004139F8 /* moc_BaseDialog.cpp in Compile Sources */,
+				84FC26F31DD44413004139F8 /* moc_TopLevelWindowTitleBar_p.cpp in Compile Sources */,
+				FEB2163F3484579E5BD2D5A0 /* GlobalResources.cpp in Compile Sources */,
+				84FC26F41DD44413004139F8 /* moc_TopLevelWindowTitleBar.cpp in Compile Sources */,
+				E1D3F8AD162C81806DC7B998 /* LibImport.cpp in Compile Sources */,
+				8702D6DC7ED7223C41654868 /* NLEBaseWidget.cpp in Compile Sources */,
+				84FC26EB1DD44413004139F8 /* moc_NLEBaseWidget.cpp in Compile Sources */,
+				93B1D39EDE97ED07FDE2B9BC /* PathOperation.cpp in Compile Sources */,
+				0C2CC78EFD37EF47C91CD64D /* RegexOperation.cpp in Compile Sources */,
+				84FC26ED1DD44413004139F8 /* moc_NLEWraper.cpp in Compile Sources */,
+				84FC26EE1DD44413004139F8 /* moc_NLEWraperPrivate.cpp in Compile Sources */,
+				B7C734894B58F8C13F24026D /* RenderOperation.cpp in Compile Sources */,
+				4501D57D533F7C192692D4E0 /* stdafx.cpp in Compile Sources */,
+				3D832BE7FBBCA7BCEB4D0ACD /* timelineviewruler.cpp in Compile Sources */,
+				84FC26F21DD44413004139F8 /* moc_timelineviewruler.cpp in Compile Sources */,
+				D438CF19CCDA6BC293EEECCB /* TopLevelWindowTitleBar_p.cpp in Compile Sources */,
+				0AEEDECF6ED9B0C8ECEA6AFD /* XmlOperation.cpp in Compile Sources */,
+				84FC26EF1DD44413004139F8 /* moc_PlayerMaterProvider.cpp in Compile Sources */,
+				84FC26EC1DD44413004139F8 /* moc_NLETimeline.cpp in Compile Sources */,
+				D3D9250808D38D37F44462A4 /* NLETimeline.cpp in Compile Sources */,
+				84FC26F01DD44413004139F8 /* moc_PlayerMaterProviderPrivate.cpp in Compile Sources */,
+				84FC26F11DD44413004139F8 /* moc_TimelineRuler.cpp in Compile Sources */,
+				84FC26EA1DD44413004139F8 /* moc_CommonWidgets.cpp in Compile Sources */,
+				9D9BEDFEA8F5AF8D3C3B8F03 /* NLEWraper.cpp in Compile Sources */,
+				5DBF4B8DD08FD3B48548FB45 /* NLEWraperPrivate.cpp in Compile Sources */,
+				158F140BBE1014EF5296B45C /* PlayerMaterProvider.cpp in Compile Sources */,
+				7115BEBBE7C355B6E8B7C569 /* PlayerMaterProviderPrivate.cpp in Compile Sources */,
+				84FC26F51DD44413004139F8 /* qrc_CommonLib.cpp in Compile Sources */,
+				71C3042FF0294459D7F8CB22 /* WSCreateInstance.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE6A45C4AF8132EFC783C49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 190C74FDBC51E962CE518BB0 /* Qt Preprocess */;
+			targetProxy = 8484D2281DCC7E1B00BBE732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/admin/Qt5.4.1/5.4/clang_64/lib,
+					/Users/admin/Qt5.4.1/5.4/clang_64/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					NLEWraper,
+					../../../../Qt5.4.1/5.4/clang_64/lib/QtGui.framework/Versions/5/Headers,
+					../../../../Qt5.4.1/5.4/clang_64/lib/QtCore.framework/Versions/5/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"../../../../Qt5.4.1/5.4/clang_64/mkspecs/macx-clang",
+				);
+				INSTALL_PATH = "";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/admin/Qt5.4.1/5.4/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+					"-compatibility_version",
+					1.0,
+					"-current_version",
+					1.0.0,
+					"-install_name",
+					libCommonLib.1.dylib,
+					"-F/Users/admin/Qt5.4.1/5.4/clang_64/lib",
+				);
+				PRODUCT_NAME = libCommonLib;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = .;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/admin/Qt5.4.1/5.4/clang_64/lib,
+					/Users/admin/Qt5.4.1/5.4/clang_64/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					NLEWraper,
+					../../../../Qt5.4.1/5.4/clang_64/lib/QtGui.framework/Versions/5/Headers,
+					../../../../Qt5.4.1/5.4/clang_64/lib/QtCore.framework/Versions/5/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"../../../../Qt5.4.1/5.4/clang_64/mkspecs/macx-clang",
+				);
+				INSTALL_PATH = "";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/admin/Qt5.4.1/5.4/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+					"-compatibility_version",
+					1.0,
+					"-current_version",
+					1.0.0,
+					"-install_name",
+					libCommonLib.1.dylib,
+					"-F/Users/admin/Qt5.4.1/5.4/clang_64/lib",
+				);
+				PRODUCT_NAME = libCommonLib;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+				SYMROOT = .;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(QTDIR)/lib",
+					"$(QTDIR)/lib",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = stdafx.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					NLEWraper,
+					"$(QTDIR)/lib/QtGui.framework/Versions/5/Headers",
+					"$(QTDIR)/lib/QtCore.framework/Versions/5/Headers",
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"$(QTDIR)/mkspecs/macx-clang",
+				);
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/libCommonLib.dylib";
+				LD_NO_PIE = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(QTDIR)/lib",
+					/System/Library/Frameworks/,
+					"\"$(SRCROOT)/../bin/Mac/Debug\"",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+					"-compatibility_version",
+					1.0,
+					"-current_version",
+					1.0.0,
+					"-F/Users/admin/Qt5.4.1/5.4/clang_64/lib",
+				);
+				PRODUCT_NAME = libCommonLib;
+				QTDIR = /Users/admin/Qt5.4.1/5.4/clang_64;
+				QT_LIBRARY_SUFFIX = "";
+				REEXPORTED_LIBRARY_NAMES = "";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../include ../include/inc_commonlib ../inc ../inc/include ../inc/interface ../inc/mac ../inc/shared ../inc/externlib/multimediasdk/interface/c++/type ../inc/externlib/multimediasdk/interface/c++/common ../inc/include/nlepropcomptr";
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(QTDIR)/lib",
+					"$(QTDIR)/lib",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = stdafx.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					NLEWraper,
+					"$(QTDIR)/lib/QtGui.framework/Versions/5/Headers",
+					"$(QTDIR)/lib/QtCore.framework/Versions/5/Headers",
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"$(QTDIR)/mkspecs/macx-clang",
+				);
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/libCommonLib.dylib";
+				LD_NO_PIE = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(QTDIR)/lib",
+					/System/Library/Frameworks/,
+					"\"$(SRCROOT)/../bin/Mac/Debug\"",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-single_module",
+					"-dynamiclib",
+					"-compatibility_version",
+					1.0,
+					"-current_version",
+					1.0.0,
+					"-F/Users/admin/Qt5.4.1/5.4/clang_64/lib",
+				);
+				PRODUCT_NAME = libCommonLib;
+				QTDIR = /Users/admin/Qt5.4.1/5.4/clang_64;
+				QT_LIBRARY_SUFFIX = _debug;
+				REEXPORTED_LIBRARY_NAMES = "";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../include ../include/inc_commonlib ../inc ../inc/include ../inc/interface ../inc/mac ../inc/shared ../inc/externlib/multimediasdk/interface/c++/type ../inc/externlib/multimediasdk/interface/c++/common ../inc/include/nlepropcomptr";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "libCommonLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CommonLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}

@@ -1,0 +1,26 @@
+
+
+/*CommonLib*/
+
+ToolBarSlider#CommonLib_ToolBarSlider > QWidget#CommonLib_ToolBarSlider_bg {border-image:url(:/CommonLib/Resources/normal/VideoTrackBar_Track_bg.png)}
+ToolBarSlider#CommonLib_ToolBarSlider > QWidget#CommonLib_ToolBarSlider_chunk {border-image:url(:/CommonLib/Resources/normal/VideoTrackBar_Pointer_n.png);}
+ToolBarSlider#CommonLib_ToolBarSlider > QWidget#CommonLib_ToolBarSlider_chunk:disabled {border-image:url(:/CommonLib/Resources/normal/VideoTrackBar_Pointer_d.png);}
+ToolBarSlider#CommonLib_ToolBarSlider > QWidget#CommonLib_ToolBarSlider_groove {border-image:url(:/CommonLib/Resources/normal/VideoTrackBar_Track_groove.png)}
+ToolBarSlider#CommonLib_ToolBarSlider > QWidget#CommonLib_ToolBarSlider_groove:disabled {border-image:url(:/CommonLib/Resources/normal/VideoTrackBar_Track_bg.png)}
+
+ScaleUnitSlider#CommonLib_ScaleUnitSlider > QWidget#CommonLib_ScaleUnitSlider_Sub {border-image:url(:/CommonLib/Resources/normal/ScaleUnitSlider_ZoomIn_n.png)}
+ScaleUnitSlider#CommonLib_ScaleUnitSlider > QWidget#CommonLib_ScaleUnitSlider_Sub:hover {border-image:url(:/CommonLib/Resources/normal/ScaleUnitSlider_ZoomIn_h.png)}
+ScaleUnitSlider#CommonLib_ScaleUnitSlider > QWidget#CommonLib_ScaleUnitSlider_Sub:disabled {border-image:url(:/CommonLib/Resources/normal/ScaleUnitSlider_ZoomIn_d.png)}
+ScaleUnitSlider#CommonLib_ScaleUnitSlider > QWidget#CommonLib_ScaleUnitSlider_Add {border-image:url(:/CommonLib/Resources/normal/ScaleUnitSlider_ZoomOut_n.png)}
+ScaleUnitSlider#CommonLib_ScaleUnitSlider > QWidget#CommonLib_ScaleUnitSlider_Add:hover {border-image:url(:/CommonLib/Resources/normal/ScaleUnitSlider_ZoomOut_h.png)}
+ScaleUnitSlider#CommonLib_ScaleUnitSlider > QWidget#CommonLib_ScaleUnitSlider_Add:disabled {border-image:url(:/CommonLib/Resources/normal/ScaleUnitSlider_ZoomOut_d.png)}
+
+QWidget#TimelineView_TimelineViewRuler{ background-color: rgb(245,244,244);}
+
+
+BaseButton#TopLevelWindowTitleBar_TitleIcon {background-image:url(:/CommonLib/Resources/normal/TitleBar_TitleIcon.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#TopLevelWindowTitleBar_Minimized {background-image:url(:/CommonLib/Resources/normal/TitleBar_Minimized.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#TopLevelWindowTitleBar_Normal {background-image:url(:/CommonLib/Resources/normal/TitleBar_Normal.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#TopLevelWindowTitleBar_Maximized {background-image:url(:/CommonLib/Resources/normal//TitleBar_Maximized.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#TopLevelWindowTitleBar_Close {background-image:url(:/CommonLib/Resources/normal/TitleBar_Close.png);background-position: center; background-repeat:no-repeat;}
+		

@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/NLEPreview">
+        <file>Resources/TitleBar_Close.png</file>
+        <file>Resources/TitleBar_Maximized.png</file>
+        <file>Resources/TitleBar_Minimized.png</file>
+        <file>Resources/TitleBar_Normal.png</file>
+        <file>Resources/TitleBar_TitleIcon.png</file>
+        <file>Resources/Splash.png</file>
+    </qresource>
+</RCC>
